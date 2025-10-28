@@ -10,8 +10,8 @@ messages into numerical feature vectors.
 ## 📘 Project Overview
 
 Spam detection is a classic Natural Language Processing (NLP) problem.
-The goal is to classify a given message as either: - **Spam (0)** --
-Unwanted promotional or fraudulent messages\
+The goal is to classify a given message as either:
+- **Spam (0)** --Unwanted promotional or fraudulent messages
 - **Ham (1)** -- Legitimate messages
 
 The dataset used here is the `mail_data.csv` file which contains labeled
@@ -34,11 +34,11 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 ```
 
--   **pandas, numpy:** For data handling and preprocessing\
+-   **pandas, numpy:** For data handling and preprocessing
 -   **train_test_split:** To divide the dataset into training and
-    testing sets\
--   **TfidfVectorizer:** Converts text into numerical form\
--   **LogisticRegression:** For building the classification model\
+    testing sets
+-   **TfidfVectorizer:** Converts text into numerical form
+-   **LogisticRegression:** For building the classification model
 -   **accuracy_score:** To evaluate model performance
 
 ------------------------------------------------------------------------
